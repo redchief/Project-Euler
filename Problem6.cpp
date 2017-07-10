@@ -33,8 +33,8 @@ int main(){
 
   squ_sum = sum1*sum1;
 
-  std::cout<< "The sum of square is "<<sum_squ<<" \n";
-  std::cout<< "The square of sum is "<<squ_sum<<" \n";
+  std::cout<< "The sum of square of first 100 natural number is "<<sum_squ<<" \n";
+  std::cout<< "The square of sum of first 100 naturak number is "<<squ_sum<<" \n";
   std::cout<< "The difference is "<< squ_sum-sum_squ<< "\n";
 
   return 0;
