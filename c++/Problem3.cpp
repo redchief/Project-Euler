@@ -15,26 +15,14 @@
  **/
 #include <iostream>
 
-bool is_prime(int no){
-  for(int i=2; i<no; i++){
-    if(no%i == 0){
-      return false;
-    }
-  }
-  return true;
-}
-
-
 int main(){
   auto num = 600851475143;
   auto prime = 2;
-  for(int i=2; i <= num; i++){
-    if (is_prime(i) == true){
-      if (i > prime && num%i ==0){
-          prime = i;
-          std::cout << "Now the highest prime number is "<< prime << "\n";
-        }
-      }
+  while(prime*prime < num){
+    while(num%p == 0){
+      num = num/p;
     }
-  std::cout<< prime<< " is the prime number we want";
+    prime = prime +1;
+  }
+  std::cout<< num << " is the prime number we want ";
 }
