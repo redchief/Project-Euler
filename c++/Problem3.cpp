@@ -19,8 +19,8 @@ int main(){
   auto num = 600851475143;
   auto prime = 2;
   while(prime*prime < num){
-    while(num%p == 0){
-      num = num/p;
+    while(num%prime == 0){
+      num = num/prime;
     }
     prime = prime +1;
   }
