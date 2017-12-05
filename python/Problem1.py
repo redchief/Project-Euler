@@ -10,7 +10,7 @@ def main():
     for i in range(3, 1000):
         if i%3 == 0 or i%5==0:
             sum +=i
-    print " %d is the sum of all multiples of 2 and 5 below 1000"%sum
+    Print " %d is the sum of all multiples of 2 and 5 below 1000"%sum
 
 if __name__ == "__main__":
     main()
